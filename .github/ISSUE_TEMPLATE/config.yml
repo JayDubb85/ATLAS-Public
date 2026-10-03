@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private or sensitive ATLAS report
+    url: mailto:creations@dubb.gg
+    about: Email Dubb for sensitive reports or support without a GitHub account. Mention ATLAS.
+  - name: ATLAS Field Notes
+    url: https://dubb.gg/atlas-field-notes/
+    about: Read development updates and announcements.
