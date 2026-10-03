@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest an improvement for ATLAS.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the problem or use case.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your suggestion
+      description: Describe how this would help you use ATLAS.
+    validations:
+      required: true
