@@ -1,0 +1,33 @@
+name: Bug report
+description: Report something that is not working in ATLAS.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "This tracker is public. Please do not attach game saves, credentials, or personal information. ATLAS is in development; report the build you actually used."
+  - type: input
+    id: version
+    attributes:
+      label: ATLAS version or build
+      placeholder: Version shown in the app
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows version and browser (if applicable)
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened and how can we reproduce it?
+      description: Include the steps, expected result, and actual result.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots and additional details
+      description: Optional. Remove personal information before sharing. Include the game version if relevant.
